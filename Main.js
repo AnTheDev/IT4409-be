@@ -121,6 +121,6 @@ app.delete('/api/users/:id', async (req, res) => {
 
 
 // Start server 
-app.listen(3001, () => {
+app.listen(PORT, () => {
   console.log("Server running on http://localhost:3001");
 });
